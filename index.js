@@ -1,5 +1,9 @@
 const button = document.getElementById("input_box");
 
+function uploadLocalStorage(event){
+    document.querySelector("#name_section").innerHTML = localStorage.getItem("field1");
+    document.querySelector("#phone_section").innerHTML = localStorage.getItem("field2");
+}
 
 button.addEventListener("submit", event =>{
     //prevent submit button from form to relod
@@ -12,9 +16,7 @@ button.addEventListener("submit", event =>{
     localStorage.setItem("field1",inputName);
     localStorage.setItem("field2",inputPhone);
 
-    document.querySelector("#name_section").innerHTML = localStorage.getItem("field1");
-    document.querySelector("#phone_section").innerHTML = localStorage.getItem("field2");
-
+    uploadLocalStorage()
 });
 
 window.addEventListener("load", function(event) {
@@ -23,5 +25,7 @@ window.addEventListener("load", function(event) {
     let savedPhone = localStorage.getItem("field2")
     //When page opens fields will be automatically updated with local storage info
     document.querySelector("#input_box input[name='fname']").value = savedName;
-    document.querySelector("#input_box input[name='phone']").value = savedPhone; 
+    document.querySelector("#input_box input[name='phone']").value = savedPhone;
+    
+    uploadLocalStorage() 
   });
