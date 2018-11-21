@@ -1,0 +1,56 @@
+document.location.hash
+""
+document.location.search
+""
+document.location.hash
+""
+document.location.search
+""
+document.location.href
+"https://www.pinkbike.com/news/ohlins-announces-rxf36-evo-fork.html"
+let naujasElementas = document.createElement("BUTTON")
+undefined
+let newImage = document.createElement("IMAGE")
+undefined
+newImage.src=https://www.pinkbike.com/news/the-2018-pinkbike-festive-gift-guide.html?pbref=package
+SyntaxError: unexpected token: ':'[Learn More] debugger eval code:1:18
+newImage.src https://www.pinkbike.com/news/the-2018-pinkbike-festive-gift-guide.html?pbref=package
+SyntaxError: unexpected token: identifier[Learn More] debugger eval code:1:13
+newImage.src="https://www.pinkbike.com/news/the-2018-pinkbike-festive-gift-guide.html?pbref=p"
+"https://www.pinkbike.com/news/the-2018-pinkbike-festive-gift-guide.html?pbref=p"
+document.getElementById(".news-photo").appendChild(newImage)
+TypeError: document.getElementById(...) is null; can't access its "appendChild" property[Learn More] debugger eval code:1:1
+document.getElementById("news-photo").appendChild(newImage)
+TypeError: document.getElementById(...) is null; can't access its "appendChild" property[Learn More] debugger eval code:1:1
+document.getElementById("news-photo-element-height ").appendChild(newImage)
+TypeError: document.getElementById(...) is null; can't access its "appendChild" property[Learn More] debugger eval code:1:1
+inElm.appendChild(newImage)
+ReferenceError: inElm is not defined[Learn More] debugger eval code:1:1
+newImage.src="https://ep1.pinkbike.org/p6pb16573208/p6pb16573208.jpg"
+"https://ep1.pinkbike.org/p6pb16573208/p6pb16573208.jpg"
+newImage
+<image>
+document.querySelector("body").appendChild(newImage)
+<image>
+newImage=document.createElement("img")
+<img>
+newImage.src
+"https://ep1.pinkbike.org/p6pb16573208/p6pb16573208.jpg"
+document.querySelector("body").appendChild(newImage)
+<image>
+let naujas=document.createElement("img")
+<img>
+naujas.src="https://ep1.pinkbike.org/p6pb16573208/p6pb16573208.jpg"
+"https://ep1.pinkbike.org/p6pb16573208/p6pb16573208.jpg"
+document.querySelector("body").appendChild(naujas)
+<img src="https://ep1.pinkbike.org/p6pb16573208/p6pb16573208.jpg">
+document.cookie
+"_ga=GA1.2.222959984.1541002330; _gid=GA1.2.1077425322.1542739506"
+document.cookie="naujas=token"
+"naujas=token"
+document.cookie
+"naujas=token; _ga=GA1.2.222959984.1541002330; _gid=GA1.2.1077425322.1542739506"
+document.cookie="naujas="
+"naujas="
+document.cookie
+"naujas=; _ga=GA1.2.222959984.1541002330; _gid=GA1.2.1077425322.1542739506"
